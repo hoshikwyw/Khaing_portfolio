@@ -4,24 +4,23 @@
 
 @layer components {
   .icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: theme('colors.greyText.light');
-    color: white;
+    position: relative;
   }
-  .icon:hover {
-    background-color: theme('colors.greyText.dark');
+  .innerIcon {
+    font-size: 22px;
+    color: theme('colors.mainText.light');
+    line-height: 16px;
   }
-  .icon:focus {
-    background-color: theme('colors.blueText');
-  }
-  .icon:active {
-    background-color: theme('colors.bgBlue');
-    color: theme('colors.blueText');
+  .imgSize {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
   }
   .mainText {
     font-size: 32px;
@@ -38,5 +37,31 @@
     text-decoration: none solid rgb(228, 230, 235);
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
+  }
+  .mainBtn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .mainIcon {
+    width: 24px;
+    height: 24px;
+    color: theme('colors.greyText.light');
+  }
+  .tooltipText {
+    visibility: hidden;
+    background-color: theme('colors.mainBg.light2');
+    color: theme('colors.mainText.light');
+    text-align: center;
+    padding: 3px 0px;
+    position: absolute;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: -40px;
+    left: -30px;
+  }
+  .mainBtn:hover .tooltipText , .icon:hover .tooltipText {
+    visibility: visible;
   }
 }
