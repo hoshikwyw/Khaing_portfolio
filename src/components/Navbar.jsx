@@ -1,13 +1,13 @@
 import React from 'react'
-import logo from '/public/logo.png'
+import logo from '/logo.png'
 import { AiOutlineSearch } from "react-icons/ai";
 import { HiOutlineHome } from "react-icons/hi2";
 import DarkMode from './DarkMode';
 
 const Navbar = () => {
     return (
-        <div className='bg-mainBg-light dark:bg-mainBg-dark w-full px-4 py-1 shadow-sm flex items-center justify-between'>
-            <div className=' flex items-center'>
+        <div className='bg-mainBg-light dark:bg-mainBg-dark w-full h-[56px] px-4 py-1 flex items-center justify-between'>
+            <div className=' flex items-center gap-1'>
                 <img src={logo} alt="" className=' imgSize' />
                 <div className=' bg-btnBg-light dark:bg-btnBg-dark flex items-center p-2 rounded-full lg:rounded-3xl'>
                     <button><AiOutlineSearch className=' h-[20px] w-[20px] text-greyText-light' /></button>

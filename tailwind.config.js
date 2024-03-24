@@ -25,7 +25,8 @@ export default {
         mainText : {
           light : '#050505',
           dark : '#E4E6EB',
-        }
+        },
+        
       }
     },
   },

@@ -14,7 +14,7 @@
   }
   .innerIcon {
     font-size: 22px;
-    color: theme('colors.mainText.light');
+    color: theme("colors.mainText.light");
     line-height: 16px;
   }
   .imgSize {
@@ -46,12 +46,12 @@
   .mainIcon {
     width: 24px;
     height: 24px;
-    color: theme('colors.greyText.light');
+    color: theme("colors.greyText.light");
   }
   .tooltipText {
     visibility: hidden;
-    background-color: theme('colors.mainBg.light2');
-    color: theme('colors.mainText.light');
+    background-color: theme("colors.mainBg.light2");
+    color: theme("colors.mainText.light");
     text-align: center;
     padding: 3px 0px;
     position: absolute;
@@ -61,7 +61,9 @@
     bottom: -40px;
     left: -30px;
   }
-  .mainBtn:hover .tooltipText , .icon:hover .tooltipText {
+  .mainBtn:hover .tooltipText,
+  .icon:hover .tooltipText {
     visibility: visible;
   }
+  
 }

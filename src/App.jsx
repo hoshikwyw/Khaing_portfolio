@@ -1,10 +1,16 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Path from './redux/Paths'
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <div className=''>
+        <Navbar />
+      </div>
+      <div className=' w-full'>
+        <Path />
+      </div>
     </div>
   )
 }
