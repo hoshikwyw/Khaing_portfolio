@@ -1,11 +1,11 @@
 import React from 'react'
 
-const path = () => {
+const Projects = () => {
   return (
     <div>
-      Paths
+      projects
     </div>
   )
 }
 
-export default path
+export default Projects
