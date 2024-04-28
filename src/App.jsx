@@ -5,7 +5,7 @@ import Path from './redux/Paths'
 const App = () => {
   return (
     <div>
-      <div className=''>
+      <div className=' shadow-md fixed top-0 w-full'>
         <Navbar />
       </div>
       <div className=' w-full'>
