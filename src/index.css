@@ -38,6 +38,17 @@
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
   }
+  .smallText {
+    font-size: 14px;
+    color: #181717;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+  }
+  .btnText {
+    font-size: 15px;
+    font-weight: 600px;
+  }
   .mainBtn {
     position: relative;
     display: inline-block;
