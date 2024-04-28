@@ -20,10 +20,10 @@ const Main = () => {
       </div>
       <div className=" dark:bg-black bg-[#F0F2F5] py-10 flex items-center justify-center">
         <div className=' lg:w-[1250px] md:w-full sm:w-full flex flex-row justify-center gap-20'>
-          <div className=' w-[30%] h-[800px] dark:bg-[#242526] bg-[#ffffff] rounded-md'>
+          <div className=' w-[30%] dark:bg-[#242526] bg-[#ffffff] rounded-md'>
             <AboutIntro />
           </div>
-          <div className=' w-[60%] h-[800px] dark:bg-[#242526] bg-[#ffffff] rounded-md'>
+          <div className=' w-[60%] dark:bg-[#242526] bg-[#ffffff] rounded-md'>
             <AboutIntro />
           </div>
         </div>
