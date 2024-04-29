@@ -19,9 +19,9 @@ const IntroImg = ({ src, alt, text }) => {
     return (
         <div className=" flex flex-col justify-center items-center">
 
-            <div style={containerStyle}>
+            <div style={containerStyle} className=' brightness-50'>
             </div>
-            <h1 className=' text-gray-500 dark:text-gray-200'>{text}</h1>
+            <h1 className=' text-gray-500 dark:text-gray-200 font-semibold text-sm tracking-wider pt-2'>{text}</h1>
         </div>
     );
 }
