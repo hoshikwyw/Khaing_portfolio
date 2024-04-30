@@ -1,11 +1,11 @@
 import React from 'react'
 
 const LanguageCard = ({ src, text }) => {
-  console.log(src);
+
   return (
-    <div className=' w-[100px] h-[120px] bg-[#7E8080] dark:bg-[#CBCCCC] relative rounded-md'>
-      <img src={src} alt="" className=' w-full h-full' />
-      <h1 className=' absolute'>{text}</h1>
+    <div className=' w-[80px] h-[80px] relative rounded-md flex justify-center items-center group cursor-pointer'>
+      <img src={src} alt="" className=' transition duration-500 ease-in-out transform group-hover:brightness-50 group-hover:grayscale' />
+      <h1 className=' absolute font-bold text-[16px] text-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-200 ease-in-out'>{text}</h1>
     </div>
   )
 }
