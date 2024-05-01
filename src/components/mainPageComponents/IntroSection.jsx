@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '../../common/Button'
 import { GiConversation } from "react-icons/gi";
 import { GrDocumentDownload } from "react-icons/gr";
+import BlueBtn from '../../common/BlueBtn';
 
 const IntroSection = () => {
     return (
@@ -15,7 +16,7 @@ const IntroSection = () => {
                 <h1 className=' subTitle'>Frontend Developer</h1>
             </div>
             <div className=' buttons w-[40%] flex items-end pb-10 gap-10 justify-end'>
-                <Button text="Get My Resume" bgColor="blue" icon={GrDocumentDownload} textColor="white" />
+                <BlueBtn text="Get My Resume" bgColor="blue" icon={GrDocumentDownload} textColor="white" />
                 <Button text="Contact With Me" bgColor="grey" icon={GiConversation} textColor="black" />
             </div>
         </div>
