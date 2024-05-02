@@ -4,6 +4,7 @@ import IntroSection from '../components/mainPageComponents/IntroSection'
 import SubNavbar from '../components/mainPageComponents/SubNavbar'
 import AboutIntro from '../components/mainPageComponents/AboutIntro'
 import LanguagesIntro from '../components/mainPageComponents/LanguagesIntro'
+import IntroExp from '../components/mainPageComponents/IntroExp'
 
 const Main = () => {
   return (
@@ -24,6 +25,9 @@ const Main = () => {
           <div className=" w-[30%] flex flex-col gap-5">
             <div className=' w-full dark:bg-[#242526] bg-[#ffffff] rounded-md'>
               <AboutIntro />
+            </div>
+            <div className=" w-full dark:bg-[#242526] bg-[#ffffff] rounded-md">
+              <IntroExp />
             </div>
             <div className=" w-full dark:bg-[#242526] bg-[#ffffff] rounded-md">
               <LanguagesIntro />
