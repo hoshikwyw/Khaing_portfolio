@@ -11,10 +11,6 @@ const Navbar = () => {
         <div className='bg-mainBg-light dark:bg-mainBg-dark w-full h-[56px] px-4 py-1 flex items-center justify-between'>
             <div className=' flex items-center gap-1'>
                 <img src={logo} alt="" className=' imgSize' />
-                <div className=' bg-btnBg-light dark:bg-btnBg-dark flex items-center p-2 rounded-full lg:rounded-3xl'>
-                    <button><AiOutlineSearch className=' h-[20px] w-[20px] text-greyText-light' /></button>
-                    <input type="text" name="search" id="search" className=' bg-transparent hidden lg:block' />
-                </div>
             </div>
             <div className=" md:block hidden">
                 <div className=" flex items-center gap-1">

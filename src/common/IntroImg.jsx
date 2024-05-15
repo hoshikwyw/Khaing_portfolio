@@ -6,7 +6,7 @@ const IntroImg = ({ src, alt, text }) => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        width: '106px',
+        width: '101px',
         height: '160px',
         display: 'flex',
         flexDirection: 'column',

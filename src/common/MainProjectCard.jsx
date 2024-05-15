@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '/logo.png'
 import test from '/hiking.jpg'
 import Button from './Button'
+import clickBtn from './commonFn'
 
 const MainProjectCard = () => {
     return (

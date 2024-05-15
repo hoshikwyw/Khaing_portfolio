@@ -17,12 +17,12 @@ const AboutIntro = () => {
                 <div className=' flex flex-col gap-2'>
                     <IntroList icon={IoIosSchool} text="Studied at MMS One Stop IT Solutions" />
                     <IntroList icon={IoIosSchool} text="Went to R.N.E.C Private High School" />
-                    <IntroList icon={IoIosHome} text="Lives in Yangon" />
+                    <IntroList icon={IoIosHome} text="Lives in Shwe Pyi Thar Township" />
                     <IntroList icon={IoLocationSharp} text="From Yangon" />
                     <Button text='View More Info' bgColor='grey' />
                 </div>
                 <div className=" flex flex-col gap-4 pt-2">
-                    <div className=" flex gap-4">
+                    <div className=" flex gap-2">
                         <IntroImg src='/hiking.jpg' text='Hiking' />
                         <IntroImg src='/coding.jpg' text='Coding' />
                         <IntroImg src='/listening.jpg' text='Listening' />
