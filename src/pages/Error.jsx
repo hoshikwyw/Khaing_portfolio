@@ -1,5 +1,5 @@
 import React from 'react'
-import BlueBtn from '../common/BlueBtn'
+import BlueBtn from '../common/commonComponents/BlueBtn'
 import { useNavigate } from 'react-router-dom'
 
 const Error = () => {

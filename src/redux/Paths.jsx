@@ -7,11 +7,11 @@ import Error from '../pages/Error'
 import MainAbout from '../components/mainPageComponents/MainAbout'
 import MainPosts from '../components/mainPageComponents/MainPosts'
 import MainVideos from '../components/mainPageComponents/MainVideos'
+import PjDetail from '../pages/PjDetail'
 
 const Paths = () => {
   return (
     <div>
-      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/projects' element={<Projects />} />
@@ -19,9 +19,9 @@ const Paths = () => {
           <Route path='/about' element={<MainAbout />} />
           <Route path='/posts' element={<MainPosts />} />
           <Route path='/videos' element={<MainVideos />} />
+          <Route path='/detail' element={<PjDetail />} />
           <Route path="*" element={<Error />} />
         </Routes>
-      </BrowserRouter>
     </div>
   )
 }

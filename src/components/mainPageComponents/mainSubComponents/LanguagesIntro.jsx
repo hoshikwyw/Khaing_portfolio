@@ -1,6 +1,6 @@
 import React from 'react'
-import LanguageCard from '../../common/LanguageCard'
-import SeeMorebtn from '../../common/SeeMorebtn'
+import LanguageCard from '../../../common/LanguageCard'
+import SeeMorebtn from '../../../common/commonComponents/SeeMorebtn'
 
 const LanguagesIntro = () => {
   return (

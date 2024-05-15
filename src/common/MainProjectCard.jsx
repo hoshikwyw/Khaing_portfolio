@@ -1,13 +1,13 @@
 import React from 'react'
 import logo from '/logo.png'
 import test from '/hiking.jpg'
-import Button from './Button'
+import Button from './commonComponents/Button'
 import clickBtn from './commonFn'
 
 const MainProjectCard = () => {
     return (
         <div className=' flex flex-col py-3 px-5 dark:bg-[#242526] bg-[#ffffff] rounded-md'>
-        
+
             <div className=" flex w-full justify-start items-center">
                 <img src={logo} alt="" className=' w-12 h-12 rounded-full' />
                 <div className=" flex flex-col justify-center items-start w-full">
@@ -22,7 +22,7 @@ const MainProjectCard = () => {
             <div className=' flex w-full justify-evenly my-5 border-b py-3'>
                 <Button text="view details" />
                 <Button text="view demo" />
-                <Button text="view github" />
+                <Button text="view github repo" />
             </div>
         </div>
     )

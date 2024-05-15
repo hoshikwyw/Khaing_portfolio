@@ -1,9 +1,9 @@
 import React from 'react'
-import SeeMorebtn from '../../common/SeeMorebtn'
-import IntroList from '../../common/IntroList'
+import SeeMorebtn from '../../../common/commonComponents/SeeMorebtn'
+import IntroList from '../../../common/IntroList'
 import { IoIosSchool, IoIosHome } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
-import Button from '../../common/Button';
+import Button from '../../../common/commonComponents/Button';
 
 const IntroExp = () => {
     return (

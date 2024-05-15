@@ -1,5 +1,5 @@
 import React from 'react'
-import MainHero from './MainHero'
+import MainHero from './mainSubComponents/MainHero'
 
 const MainVideos = () => {
   return (
