@@ -1,8 +1,8 @@
 import React from 'react'
-import Button from '../../common/Button'
+import Button from '../../../common/commonComponents/Button'
 import { GiConversation } from "react-icons/gi";
 import { GrDocumentDownload } from "react-icons/gr";
-import BlueBtn from '../../common/BlueBtn';
+import BlueBtn from '../../../common/commonComponents/BlueBtn';
 
 const IntroSection = () => {
     return (

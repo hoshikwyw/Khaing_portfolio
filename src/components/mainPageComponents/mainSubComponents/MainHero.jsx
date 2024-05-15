@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSection from './HeroSection'
 import IntroSection from './IntroSection'
-import SubNavbar from './SubNavbar'
+import SubNavbar from '../SubNavbar'
 
 const MainHero = () => {
     return (

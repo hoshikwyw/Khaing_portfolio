@@ -1,7 +1,7 @@
 import React from 'react'
-import AboutIntro from "./AboutIntro"
-import IntroExp from "./IntroExp"
-import LanguagesIntro from "./LanguagesIntro"
+import AboutIntro from "./mainSubComponents/AboutIntro"
+import IntroExp from "./mainSubComponents/IntroExp"
+import LanguagesIntro from "./mainSubComponents/LanguagesIntro"
 import MainProjectCard from '../../common/MainProjectCard'
 
 

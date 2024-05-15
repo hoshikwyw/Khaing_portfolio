@@ -1,5 +1,5 @@
 import React from 'react'
-import CustomNavLink from '../../common/CustomNavLink'
+import CustomNavLink from '../../common/commonComponents/CustomNavLink'
 
 const SubNavbar = () => {
     return (

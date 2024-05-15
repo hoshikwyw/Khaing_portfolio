@@ -1,6 +1,6 @@
 import React from 'react'
 import MainIntro from '../components/mainPageComponents/MainIntro'
-import MainHero from '../components/mainPageComponents/MainHero'
+import MainHero from '../components/mainPageComponents/mainSubComponents/MainHero'
 
 const Main = () => {
   return (
