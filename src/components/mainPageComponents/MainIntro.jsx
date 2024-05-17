@@ -32,7 +32,7 @@ const MainIntro = () => {
     }, [leftHeight])
 
     return (
-        <div className=' lg:w-[900px] md:w-full sm:w-full flex flex-row justify-center gap-14 relative overflow-hidden' ref={rightRef}>
+        <div className=' lg:w-[900px] md:w-full sm:w-full flex flex-row justify-center gap-10 relative overflow-hidden' ref={rightRef}>
             <div ref={leftRef} className=" lg:w-[40%] md:w-[50%] flex flex-col gap-5 left h-fit">
                 <div className=' w-full dark:bg-[#242526] bg-[#ffffff] rounded-md'>
                     <AboutIntro />

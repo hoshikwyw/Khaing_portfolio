@@ -6,8 +6,8 @@ import Button from './commonComponents/Button'
 const MainProjectCard = (data) => {
     console.log(data);
     return (
-        <div className=' flex flex-col py-3 px-5 dark:bg-[#242526] bg-[#ffffff] rounded-md'>
-            <div className=" flex w-full justify-start items-center py-2 gap-3">
+        <div className=' flex flex-col py-2 px-5 dark:bg-[#242526] bg-[#ffffff] rounded-md'>
+            <div className=" flex w-full justify-start items-center pb-2 gap-3">
                 <img src={data.src} alt="" className=' w-12 h-12 rounded-full' />
                 <div className=" flex flex-col justify-center items-start w-full">
                     <h1 className=' text-black dark:text-white font-semibold'>{data.title}</h1>
