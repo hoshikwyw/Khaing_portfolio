@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+  visibility: hidden;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  visibility: hidden;
+}
+
 @layer components {
   .icon {
     width: 40px;

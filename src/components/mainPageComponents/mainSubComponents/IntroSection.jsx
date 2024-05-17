@@ -6,9 +6,9 @@ import BlueBtn from '../../../common/commonComponents/BlueBtn';
 
 const IntroSection = () => {
     return (
-        <div className=' lg:w-[1250px] md:w-full sm:w-full h-full flex gap-14 justify-between border-b-2 border-[#B0B3B3] dark:border-[#65676B] px-3'>
+        <div className=' lg:w-[1050px] md:w-full sm:w-full h-full flex gap-10 justify-between border-b-2 border-[#B0B3B3] dark:border-[#65676B] px-3'>
             <div className="img w-[20%] h-[150px] relative">
-                <img src="/pfp.png" alt="" className=' w-[200px] h-[200px] rounded-full absolute -top-20 border bg-white' />
+                <img src="/pfp.png" alt="" className=' w-[190px] h-[190px] rounded-full absolute -top-20 border bg-white' />
             </div>
             <div className="text w-[40%] flex flex-col justify-center dark:text-white">
                 <h1 className=' mainText'>Khaing Wut Yi Win</h1>

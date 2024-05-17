@@ -3,7 +3,7 @@ import CustomNavLink from '../../common/commonComponents/CustomNavLink'
 
 const SubNavbar = () => {
     return (
-        <div className=' lg:w-[1250px] md:w-full sm:w-full h-full flex gap-14 px-10'>
+        <div className=' lg:w-[1050px] md:w-full sm:w-full h-full flex gap-14 px-10'>
             <CustomNavLink to='/' text="Intro" />
             <CustomNavLink to='/about' text='About' />
             <CustomNavLink to='/posts' text='Posts' />
