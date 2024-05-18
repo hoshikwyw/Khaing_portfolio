@@ -16,7 +16,7 @@ const MainProjectCard = (data) => {
             </div>
             <div className=' border rounded-md w-full overflow-hidden'>
                 <img src={test} className=' mainCoverImg rounded-t-md' alt="" />
-                <p className=' px-5 py-5 text-sm text-black dark:text-white break-words'>{data.des}</p>
+                <p className=' px-5 py-5 smallText text-black dark:text-white break-words'>{data.des}</p>
             </div>
             <div className=' flex w-full justify-evenly pt-3'>
                 <Button text="view details" />

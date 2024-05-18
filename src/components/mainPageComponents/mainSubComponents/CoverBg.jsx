@@ -2,7 +2,7 @@ import React from 'react'
 
 const CoverBg = () => {
   return (
-    <div className=" w-full h-[460px] flex flex-col justify-center items-center gap-5">
+    <div className=" w-full h-[320px] flex flex-col justify-center items-center gap-5">
       <h1 className=' mainText text-mainText-light dark:text-mainText-dark'>Hello Welcome To My Portfolio Website .</h1>
       <h1 className=' subTitle text-greyText-light dark:text-greyText-dark'>Dive into my portfolio to see my passion in action, and don't hesitate to connect with me!</h1>
     </div>

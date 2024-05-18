@@ -44,7 +44,7 @@ const MainIntro = () => {
                     <LanguagesIntro />
                 </div>
             </div>
-            <div className=' w-[45%] right rounded-md overflow-scroll' >
+            <div className=' w-[45%] right rounded-md overflow-scroll scroll-smooth snap-center' >
                 <MainProjects />
             </div>
         </div>

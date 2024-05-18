@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Path from './redux/Paths';
 import Loading from './pages/Loading';
+import Footer from './components/Footer';
 
 const App = () => {
   const [contentReady, setContentReady] = useState(false);
@@ -50,6 +51,9 @@ const App = () => {
           </div>
           <div className=' w-full'>
             <Path />
+          </div>
+          <div>
+            <Footer />
           </div>
         </div>
       )}
