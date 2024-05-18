@@ -9,10 +9,10 @@
         },
         {
             "id": 2,
-            "title": "EDu",
-            "date": "12121223",
+            "title": "EDU Pro",
+            "date": "14 Jun 2023",
             "image": "/logos/git.png",
-            "description": "fksdjfjsdiojfioejfjsdjgdjkgjjgkdjkgjkjkljkjdfkjdkjfkdjkfjdkfjkdjfklasdjfkl"
+            "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices."
         },
         {
             "id": 3,
