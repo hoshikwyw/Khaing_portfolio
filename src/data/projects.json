@@ -2,10 +2,10 @@
     "projects": [
         {
             "id": 1,
-            "title": "Calculator",
+            "title": "Edu Pro Dashboard",
             "date": "12121223",
             "image": "/logos/css.png",
-            "description": ""
+            "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices."
         },
         {
             "id": 2,
@@ -19,28 +19,28 @@
             "title": "dashboard",
             "date": "12121223",
             "image": "/logos/node.png",
-            "description": "fksdjfjsdiojfioejfjsdjgdjkgjjgkdjkgjkjkljkjdfkjdkjfkdjkfjdkfjkdjfklasdjfkl"
+            "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices."
         },
         {
             "id": 4,
             "title": "dashboard",
             "date": "12121223",
             "image": "/logos/npm.png",
-            "description": "fksdjfjsdiojfioejfjsdjgdjkgjjgkdjkgjkjkljkjdfkjdkjfkdjkfjdkfjkdjfklasdjfkl"
+            "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices."
         },
         {
             "id": 5,
             "title": "dashboard",
             "date": "12121223",
             "image": "/logos/vite.png",
-            "description": "fksdjfjsdiojfioejfjsdjgdjkgjjgkdjkgjkjkljkjdfkjdkjfkdjkfjdkfjkdjfklasdjfkl"
+            "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices."
         },
         {
             "id": 6,
             "title": "dashboard",
             "date": "12121223",
             "image": "/logos/vsCode.png",
-            "description": "fksdjfjsdiojfioejfjsdjgdjkgjjgkdjkgjkjkljkjdfkjdkjfkdjkfjdkfjkdjfklasdjfkl"
+            "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices."
         }
     ]
 }
