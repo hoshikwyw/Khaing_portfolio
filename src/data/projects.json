@@ -5,7 +5,8 @@
             "title": "Edu Pro Dashboard",
             "date": "12121223",
             "image": "/logos/css.png",
-            "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices."
+            "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices.",
+            "language" : "react.js,tailwind.css"
         },
         {
             "id": 2,
@@ -13,7 +14,7 @@
             "date": "14 Jun 2023",
             "image": "/logos/git.png",
             "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices.",
-            "language": "react.js"
+            "language": "react.js,tailwind.css"
         },
         {
             "id": 3,
@@ -21,7 +22,7 @@
             "date": "12121223",
             "image": "/logos/node.png",
             "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices.",
-            "language": "react.js"
+            "language": "react.js,tailwind.css"
         },
         {
             "id": 4,
@@ -29,7 +30,7 @@
             "date": "12121223",
             "image": "/logos/npm.png",
             "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices.",
-            "language": "react.js"
+            "language": "react.js,tailwind.css"
         },
         {
             "id": 5,
@@ -37,7 +38,7 @@
             "date": "12121223",
             "image": "/logos/vite.png",
             "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices.",
-            "language": "react.js"
+            "language": "react.js,tailwind.css"
         },
         {
             "id": 6,
@@ -45,7 +46,7 @@
             "date": "12121223",
             "image": "/logos/vsCode.png",
             "description": "This project is an educational platform designed to provide a comprehensive and interactive learning experience for users. Built with React.js and styled using TailwindCSS, the website allows users to explore various courses, view teacher profiles, and register for classes. The intuitive user interface and responsive design ensure a seamless experience across all devices.",
-            "language": "react.js"
+            "language": "react.js,tailwind.css"
         }
     ]
 }
