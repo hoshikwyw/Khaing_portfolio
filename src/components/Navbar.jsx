@@ -5,6 +5,7 @@ import { HiOutlineHome } from "react-icons/hi2";
 import { BsImages } from "react-icons/bs";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import DarkMode from './DarkMode';
+import MainNavLink from '../common/MainNavLink';
 
 const Navbar = () => {
     return (
@@ -15,16 +16,13 @@ const Navbar = () => {
             <div className=" md:block hidden">
                 <div className=" flex items-center gap-1">
                     <div className=" mainBtn md:w-[61px] lg:w-[112px]">
-                        <button><HiOutlineHome className=' mainIcon' /></button>
-                        <span className=' tooltipText md:w-[61px] lg:w-[90px]'>Home</span>
+                        <MainNavLink text="home" Icon={HiOutlineHome} to="/" />
                     </div>
                     <div className=" mainBtn md:w-[61px] lg:w-[112px]">
-                        <button><BsImages className=' mainIcon' /></button>
-                        <span className=' tooltipText md:w-[61px] lg:w-[90px]'>Projects</span>
+                        <MainNavLink text="Projects" Icon={BsImages} to="/projects" />
                     </div>
                     <div className=" mainBtn md:w-[61px] lg:w-[112px]">
-                        <button><TfiHeadphoneAlt className=' mainIcon' /></button>
-                        <span className=' tooltipText md:w-[61px] lg:w-[90px]'>Connect</span>
+                        <MainNavLink text="Connect" Icon={TfiHeadphoneAlt} to="/connect" />
                     </div>
                 </div>
             </div>
