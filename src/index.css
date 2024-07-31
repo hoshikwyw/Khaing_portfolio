@@ -86,7 +86,7 @@
     position: absolute;
     z-index: 1;
     bottom: -40px;
-    left: -30px;
+    left: 7px;
   }
   .mainBtn:hover .tooltipText,
   .icon:hover .tooltipText {

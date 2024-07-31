@@ -13,17 +13,11 @@ const Navbar = () => {
             <div className=' flex items-center gap-1'>
                 <img src={logo} alt="" className=' imgSize' />
             </div>
-            <div className=" md:block hidden">
-                <div className=" flex items-center gap-1">
-                    <div className=" mainBtn md:w-[61px] lg:w-[112px]">
+            <div className=" md:block hidden ">
+                <div className=" flex items-center w-full justify-evenly gap-1">
                         <MainNavLink text="home" Icon={HiOutlineHome} to="/" />
-                    </div>
-                    <div className=" mainBtn md:w-[61px] lg:w-[112px]">
                         <MainNavLink text="Projects" Icon={BsImages} to="/projects" />
-                    </div>
-                    <div className=" mainBtn md:w-[61px] lg:w-[112px]">
                         <MainNavLink text="Connect" Icon={TfiHeadphoneAlt} to="/connect" />
-                    </div>
                 </div>
             </div>
             <div className=" flex items-center gap-1">
