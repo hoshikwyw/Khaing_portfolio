@@ -5,7 +5,7 @@ import SubNavbar from '../SubNavbar'
 
 const MainHero = () => {
     return (
-        <>
+        <div>
             <div>
                 <HeroSection />
             </div>
@@ -15,7 +15,7 @@ const MainHero = () => {
             <div className=' flex justify-center items-center'>
                 <SubNavbar />
             </div>
-        </>
+        </div>
     )
 }
 
